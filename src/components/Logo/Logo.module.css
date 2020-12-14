@@ -1,0 +1,11 @@
+.logo {
+    margin: 0 auto;
+    background-image: url(./../../images/logomini.png);
+    background-size: cover;
+    z-index: 10;
+    height: 260px;
+    width: 280px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    max-height: 350px;
+}
