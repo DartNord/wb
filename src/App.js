@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header/Header.jsx';
-import Slider from './components/Slider/Slider.jsx';
 import Logo from './components/Logo/Logo.jsx';
+import Slider from './components/Slider/Slider.jsx';
 
 function App() {
   return (
