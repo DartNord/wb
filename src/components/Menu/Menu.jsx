@@ -7,7 +7,7 @@ const Menu = (props) => {
     <div>
         <div className={css.container} id={css.mContainer}></div>
         <div id={css.sidebar}>
-            <div className={css.toggleBtn} onClick={props.openMenu()} >
+            <div className={css.toggleBtn} onClick={props.openMenu} >
                 <span></span>
                 <span></span>
                 <span></span>

@@ -1,20 +1,12 @@
 import React from 'react';
 import Menu from '../Menu/Menu.jsx';
-import menuCss from '../Menu/Menu.module.css';
 import css from './Header.module.css';
 
-const Header = () => {
-
-    function openMenu() {
-            menuCss.sidebar.classList.toggle('active');
-            menuCss.mContainer.classList.toggle('active');
-        }
-
+const Header = (props) => {
     return (
     <div>
         <div className={css.container}>
-            <Menu openMenu={openMenu} />
-            {/* <a href="#"><div className={css.menu}></div></a> */}
+            <Menu openMenu={props.openMenu} />
             <ul className={css.ul}>
                 <li>instagram</li>
                 <li>vkontakte</li>
