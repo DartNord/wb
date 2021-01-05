@@ -1,10 +1,13 @@
 import React from 'react';
-import css from './Slider.module.css';
+import Css from './Slider.module.css';
 
 const Slider = () => {
     return (
-        <div className= {css.slider}>
-            silder
+        <div>
+            <h3>Наши работы</h3>
+            <div className= {Css.slider}>
+
+            </div>
         </div>
     );
 }

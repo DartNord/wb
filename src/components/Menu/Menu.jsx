@@ -1,23 +1,26 @@
 import React from 'react';
-import css from './Menu.module.css';
+import './Menu.css'
 
 const Menu = (props) => {
 
     return (
     <div>
-        <div className={css.container} id={css.mContainer}></div>
-        <div id={css.sidebar}>
-            <div className={css.toggleBtn} onClick={props.openMenu} >
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+        <input type="checkbox" id="side-checkbox"/>
+        <div className="side-panel">
+            <label className="side-button-2" htmlFor="side-checkbox">+</label>
+            <div className="side-title">Меню</div>
             <ul>
-                <li>Main menu</li>
-                <li><a href='/'>First page</a></li>
-                <li><a href='/'>Second page</a></li>
-                <li><a href='/'>About us</a></li>
+                <li>Главная</li>
+                <li>Наши работы</li>
+                <li>Свяжитесь с нами</li>
+                <li>О компании</li>
             </ul>
+        </div>
+        <div className="side-button-1-wr">
+            <label className="side-button-1" htmlFor="side-checkbox">
+                <div className="side-b side-open">Меню</div>
+                <div className="side-b side-close">Закрыть</div>
+            </label>
         </div>
     </div>);
 }

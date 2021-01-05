@@ -28,6 +28,8 @@
 .ul {
     display: grid;
 
+    user-select: none;
+    cursor: pointer;
     align-content: center;
     justify-items: center;
     align-items: stretch;
@@ -46,6 +48,8 @@
     width: 20px;
     height: 20px;
     background: url(./../../images/instPurpleSVG.svg);
+    user-select: none;
+    cursor: pointer;
 }
 
 .ul > li:nth-child(2):before {
@@ -56,6 +60,8 @@
     width: 20px;
     height: 20px;
     background: url(./../../images/VKsvg.svg);
+    user-select: none;
+    cursor: pointer;
 }
 
 .ul > li:nth-child(3):before {
@@ -66,4 +72,6 @@
     width: 20px;
     height: 21px;
     background: url(./../../images/YTsvg.svg);
+    user-select: none;
+    cursor: pointer;
 }
