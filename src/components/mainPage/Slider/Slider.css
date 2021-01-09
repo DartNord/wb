@@ -1,0 +1,54 @@
+.OurWorks {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 80px;
+
+    font-family: Roboto Slab, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 84px;
+
+    color: #301D0B;
+
+    mix-blend-mode: normal;
+    box-sizing: border-box;
+    text-shadow: 1px 2px 3px #603415;
+}
+
+.OurWorks > img {
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    margin-top: -40px;
+}
+
+.imageCard {
+
+    max-height: 400px;
+    max-width: 400px;
+
+    margin: 5px;
+    padding: 5px;
+}
+
+.imageCard > img {
+    height: 400px;
+    width: 400px;
+    border: #721919 1px solid;
+}
+
+.stylingCarousel {
+    margin: 20px;
+}
+
+.rec.rec-carousel-wrapper .rec-pagination .rec.rec-dot.rec.rec-dot_active {
+    background: #8f1b1b;
+    box-shadow: none;
+}
+
+.rec.rec-carousel-wrapper .rec-carousel button {
+    background: rgb(165, 27, 27);
+    color: #fff;
+}

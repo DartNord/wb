@@ -34,7 +34,7 @@
   grid-area: slider;
 }
 
-Info {
+.TellAbout {
   grid-area: info;
 }
 

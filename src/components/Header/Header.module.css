@@ -4,11 +4,12 @@
     position: fixed;
     width: 100%;
     max-width: 1440px;
-    background-color: rgba(163, 156, 154, 0.13);
+    background-color: rgba(231, 227, 226, 0.22);
     border-bottom: 1px solid rgba(0, 0, 0, 0.116);
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 2fr;
+    z-index: 1000;
 }
 
 .menu {

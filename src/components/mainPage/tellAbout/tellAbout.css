@@ -1,0 +1,57 @@
+.aboutModule {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.tellAbout {
+    display: flex;
+    justify-content: center;
+
+    font-family: Roboto Slab, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 84px;
+
+    color: #301D0B;
+
+    mix-blend-mode: normal;
+    box-sizing: border-box;
+    text-shadow: 1px 2px 3px #603415;
+}
+
+.mainInfo {
+    display: flex;
+    justify-content: center;
+
+    font-family: Roboto Slab, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+
+    mix-blend-mode: normal;
+    box-sizing: border-box;
+
+    color: #000000;
+
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.coffeeImg {
+    background-size: cover;
+    background-image: url(../../../images/MainPage/aboutUs/coffee.png);
+    width: 100%;
+    height: 400px;
+}
+
+.instrument {
+    background-size: cover;
+    background-image: url(../../../images/MainPage/aboutUs/inst1.png);
+
+    width: 305px;
+    height: 255px;
+}
