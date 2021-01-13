@@ -1,29 +1,31 @@
 import React from 'react';
 import './tellAbout.css';
-import coffeeImg from '../../../images/MainPage/aboutUs/coffee.png';
+import coffeeImg from '../../../images/MainPage/aboutUs/coffeefull.png';
 
 const TellAbout = () => {
     return (
         <div>
             <div className="aboutModule">
                 <h3 className="tellAbout">Расскажем о нас</h3>
-                <h6 className="mainInfo">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Culpa dolores harum laudantium molestiae officia officiis quasi quo
-                    repudiandae tempore ut.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Culpa dolores harum laudantium molestiae officia officiis quasi quo
-                    repudiandae tempore ut.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Culpa dolores harum laudantium molestiae officia officiis quasi quo
-                    repudiandae tempore ut.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Culpa dolores harum laudantium molestiae officia officiis quasi quo
-                    repudiandae tempore ut.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Culpa dolores harum laudantium molestiae officia officiis quasi quo
-                    repudiandae tempore ut.
-                </h6>
+                <p className="mainInfo">
+                    <br/><br/>
+                    Приветствуем Вас Дорогие Друзья в нашей столярной мастерской. <br/><br/>
+                    Заниматься изготовлением изделий из дерева мы начали с 2012 года, изначально не планировалось делать на заказ, делали чисто для себя, для дома, в тот момент мы строили наш дом, переехали в новый дом в 2013 году, а старое помещение не хотелось бросать, еще к тому же для постройки нового дома было закуплено все необходимое оборудование, с чего и было принято решение, реализовать старый наш домик, и переделать его в столярную мастерскую, где разместили все станки и инструмент для работы и для достройки нового дома, после чего и стали узнавать о нас из соцсетей, а так же по знакомству, через знакомых и родственников, первое наше изделие, которое изготовили, именно изготовили, почему, потому, что мне всегда помогает моя супруга, на ее плечах лежит шлифовка и покраска изделий, так вот первое изделие- это ветряная декоративная мельница для сада или огорода, именно с него все и началось, в нашей семье все от скуки на все руки, семья творческая, и каждый что-то делает своими руками, мама вяжет, сестра так же занимается вязанием как на заказ так и для себя, жена шила ранее мягкие буквы и так далее. <br/><br/>
+                    Во время работы и время от времени модернизируем или приобретаем все новое оборудование, ведь задачи становятся все
+                    сложнее и интереснее, так в 2017 году приобрели пиропринтер или чпу выжигатель, для изготовление, различных изделий
+                    где требует нанесение выжженного рисунка на плоскости (портреты, подносы, разделочные доски, нарды и тд), в 2020 году
+                    решились на покупку станка с числовым программным управлением, да скажем станок стал хорошим помощником где нужна точность
+                    и скорость изготовления.
+                    <br/>
+                    <br/>
+                    Наша Мастерская готова предложить вам в изготовление авторских изделий из натурального, экологически чистого дерева на заказ.
+                    Всё для декора Сада и Огорода из Дерева, деревянная мебель, детская мебель и игрушки, всё для кухонной утвари, деревянная посуда, портреты выжженные на дереве, нарды, шахматы, шкатулки, подарочные упаковки из дерева, ширмы, свадебные арки, резная, прорезная резьба из дерева, декоротивные элементы для дома и мебели, вывески, таблички на дом.
+                    <br/>
+                    <br/>
+                    Интересные решения для интерьера БАНЬ, САУН, ДАЧИ И ДОМА. и многое другое!!!
+                    Возможно по вашим эскизам
+                    <br/><br/><br/>
+                </p>
                 <div className="coffeeImg"><div className="instrument"></div></div>
             </div>
         </div>

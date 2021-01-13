@@ -44,11 +44,11 @@
 }
 
 .rec.rec-carousel-wrapper .rec-pagination .rec.rec-dot.rec.rec-dot_active {
-    background: #8f1b1b;
+    background: #a13d25;
     box-shadow: none;
 }
 
 .rec.rec-carousel-wrapper .rec-carousel button {
-    background: rgb(165, 27, 27);
+    background: #a13d25;
     color: #fff;
 }

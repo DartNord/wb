@@ -11,6 +11,7 @@
   "logo"
   "slider"
   "info"
+  "sort"
   "callus"
   "comments";
 
@@ -38,7 +39,11 @@
   grid-area: info;
 }
 
-Callus {
+.Sort {
+  grid-area: sort;
+}
+
+.Callus {
   grid-area: callus;
 }
 

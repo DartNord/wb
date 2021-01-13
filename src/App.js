@@ -4,6 +4,7 @@ import Header from './components/Header/Header.jsx';
 import Logo from './components/Logo/Logo.jsx';
 import Slider from './components/mainPage/Slider/Slider.jsx';
 import TellAbout from "./components/mainPage/tellAbout/tellAbout";
+import CallUsForm from "./components/mainPage/callUs/callUsForm";
 
 function App(props) {
   return (
@@ -12,7 +13,7 @@ function App(props) {
       <Logo className={Css.Logo} />
       <Slider className={Css.Slider} />
       <TellAbout className={Css.TellAbout} />
-      
+      <CallUsForm className={Css.Callus} />
     </div>
   );
 }
