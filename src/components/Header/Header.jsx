@@ -6,10 +6,10 @@ const Header = (props) => {
         <div>
             <div className={Css.container}>
                 <ul className={Css.ul}>
-                    <li>instagram</li>
-                    <li>vkontakte</li>
-                    <li>youtube</li>
-                    <li>whats-up</li>
+                    <li><a href="#">instagram</a></li>
+                    <li><a href="#">vkontakte</a></li>
+                    <li><a href="#">youtube</a></li>
+                    <li><a href="#">whats-up</a></li>
                 </ul>
             </div>
         </div>);

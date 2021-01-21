@@ -11,7 +11,7 @@
   "logo"
   "slider"
   "info"
-  "sort"
+  "tabSort"
   "callus"
   "comments";
 
@@ -39,8 +39,8 @@
   grid-area: info;
 }
 
-.Sort {
-  grid-area: sort;
+.TabSort {
+  grid-area: tabSort;
 }
 
 .Callus {
