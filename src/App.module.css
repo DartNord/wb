@@ -5,7 +5,7 @@
 .grid_container {
   margin: 0 auto;
   display: grid;
-  
+  min-width: 390px;
   grid-template-areas: 
   "header"
   "logo"
@@ -47,6 +47,6 @@
   grid-area: callus;
 }
 
-Comments {
+.Comments {
   grid-area: comments;
 }

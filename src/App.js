@@ -7,6 +7,7 @@ import Slider from './components/mainPage/Slider/Slider.jsx';
 import TellAbout from "./components/mainPage/tellAbout/tellAbout";
 import CallUsForm from "./components/mainPage/callUs/callUsForm";
 import TabSort from "./components/mainPage/TabSort/TabSort";
+import Comment from "./components/mainPage/comments/Comment";
 
 import state from "./components/Redux/state.js";
 
@@ -22,6 +23,7 @@ function App(props) {
                photo={state.tabImg.photo} table={state.tabImg.table} decor={state.tabImg.decor}
                tbGames={state.tabImg.table_games} />
       <CallUsForm className={Css.Callus} />
+      <Comment className={Css.Comments} />
     </div>
   );
 }

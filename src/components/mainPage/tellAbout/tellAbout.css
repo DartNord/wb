@@ -40,8 +40,8 @@
     color: #efeaea;
 
     text-shadow: 1px 2px 2px #603415;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
 
 }
 
@@ -58,4 +58,11 @@
 
     width: 305px;
     height: 255px;
+}
+
+@media (max-width: 600px) {
+    .mainInfo {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
 }

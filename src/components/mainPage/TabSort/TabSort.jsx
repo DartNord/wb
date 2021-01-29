@@ -55,8 +55,8 @@ const TabSort = (state) => {
                             <Tab.Pane eventKey="rastStul">
                                 <div className='tableImg'>
                                     <img src={state.imagesRastSt[0]} alt="imgSt"/>
-                                    <img src={state.imagesRastSt[1]} style={{width: 250 + 'px'}} alt="imgSt"/>
-                                    <img src={state.imagesRastSt[2]} style={{width: 270 + 'px'}} alt="imgSt"/>
+                                    <img src={state.imagesRastSt[1]} alt="imgSt"/>
+                                    <img src={state.imagesRastSt[2]} alt="imgSt"/>
                                 </div>
                             </Tab.Pane>
                             <Tab.Pane eventKey="gamesHandMade">
@@ -66,31 +66,31 @@ const TabSort = (state) => {
                                     <img src={state.imagesHandMade[11]} alt="imgHand"/>
                                     <img src={state.imagesHandMade[3]} alt="imgHand"/>
                                     <img src={state.imagesHandMade[4]} alt="imgHand"/>
-                                    <img src={state.imagesHandMade[5]} style={{width: 250 + 'px'}} alt="imgHand"/>
+                                    <img src={state.imagesHandMade[5]} alt="imgHand"/>
                                     <img src={state.imagesHandMade[6]} alt="imgHand"/>
-                                    <img src={state.imagesHandMade[7]} style={{width: 250 + 'px'}} alt="imgHand"/>
+                                    <img src={state.imagesHandMade[7]} alt="imgHand"/>
                                     <img src={state.imagesHandMade[8]} alt="imgHand"/>
-                                    <img src={state.imagesHandMade[0]} style={{width: 250 + 'px'}} alt="imgHand"/>
-                                    <img src={state.imagesHandMade[1]} style={{width: 250 + 'px'}} alt="imgHand"/>
-                                    <img src={state.imagesHandMade[2]} style={{width: 250 + 'px'}} alt="imgHand"/>
+                                    <img src={state.imagesHandMade[0]} alt="imgHand"/>
+                                    <img src={state.imagesHandMade[1]} alt="imgHand"/>
+                                    <img src={state.imagesHandMade[2]} alt="imgHand"/>
                                     <img src={state.imagesHandMade[12]} alt="imgHand"/>
                                     <img src={state.imagesHandMade[13]} alt="imgHand"/>
-                                    <img src={state.imagesHandMade[14]} style={{width: 250 + 'px'}} alt="imgHand"/>
+                                    <img src={state.imagesHandMade[14]} alt="imgHand"/>
                                     <img src={state.imagesHandMade[15]} alt="imgHand"/>
                                     <img src={state.imagesHandMade[16]} alt="imgHand"/>
-                                    <img src={state.imagesHandMade[17]} style={{width: 280 + 'px'}} alt="imgHand"/>
+                                    <img src={state.imagesHandMade[17]} alt="imgHand"/>
                                     <img src={state.imagesHandMade[18]} alt="imgHand"/>
-                                    <img src={state.imagesHandMade[19]} style={{width: 280 + 'px'}} alt="imgHand"/>
+                                    <img src={state.imagesHandMade[19]} alt="imgHand"/>
                                     <img src={state.imagesHandMade[20]} alt="imgHand"/>
-                                    <img src={state.imagesHandMade[21]} style={{width: 370 + 'px'}} alt="imgHand"/>
-                                    <img src={state.imagesHandMade[22]} style={{width: 290 + 'px'}} alt="imgHand"/>
+                                    <img src={state.imagesHandMade[21]} alt="imgHand"/>
+                                    <img src={state.imagesHandMade[22]} alt="imgHand"/>
                                 </div>
                             </Tab.Pane>
                             <Tab.Pane eventKey="metrics_toppers_names_medal">
                                 <div className='tableImg'>
                                     <img src={state.metrics_etc[0]} alt="imgNames"/>
                                     <img src={state.metrics_etc[1]} alt="imgNames"/>
-                                    <img src={state.metrics_etc[2]} style={{width: 250 + 'px'}} alt="imgNames"/>
+                                    <img src={state.metrics_etc[2]} alt="imgNames"/>
                                     <img src={state.metrics_etc[3]} alt="imgNames"/>
                                     <img src={state.metrics_etc[4]} alt="imgNames"/>
                                 </div>
@@ -112,10 +112,10 @@ const TabSort = (state) => {
                             </Tab.Pane>
                             <Tab.Pane eventKey="decor">
                                 <div className='tableImg'>
-                                    <img src={state.decor[0]} style={{width: 250 + 'px'}} alt="imgTable"/>
+                                    <img src={state.decor[0]} alt="imgTable"/>
                                     <img src={state.decor[1]} alt="imgTable"/>
                                     <img src={state.decor[2]} alt="imgTable"/>
-                                    <img src={state.decor[3]} style={{width: 300 + 'px'}} alt="imgTable"/>
+                                    <img src={state.decor[3]} alt="imgTable"/>
                                 </div>
                             </Tab.Pane>
                             <Tab.Pane eventKey="tbGames">

@@ -18,11 +18,25 @@
 
 
 .tableImg > img {
-    width: 330px;
-    height: 350px;
+    width: 70%;
+    height: 70%;
     border: 1px solid #828282;
     padding: 10px;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 80px;
 
+}
+
+@media (max-width: 800px) {
+    .tableImg > img {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .tableImg > img {
+        margin-left: 10px;
+        width: 90%;
+        height: 90%;
+    }
 }

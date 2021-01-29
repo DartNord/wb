@@ -9,3 +9,10 @@
     margin-bottom: 40px;
     max-height: 350px;
 }
+
+@media (max-width: 500px) {
+    .logo {
+        width: 200px;
+        height: 190px;
+    }
+}
