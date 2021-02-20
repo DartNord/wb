@@ -13,29 +13,29 @@ const TabSort = (state) => {
                     <Col sm={3}>
                         <Nav variant="pills" className="flex-column">
                             <Nav.Item>
-                                <CustomNavLink eventKey="iconastasy">Иконостасы</CustomNavLink>
+                                <CustomNavLink eventKey="iconastasy">Иконостасы от 2000р</CustomNavLink>
                             </Nav.Item>
                             <Nav.Item>
-                                <CustomNavLink eventKey="rastStul">Растущие стульчики</CustomNavLink>
+                                <CustomNavLink eventKey="rastStul">Растущие стульчики от 2800р</CustomNavLink>
                             </Nav.Item>
                             <Nav.Item>
-                                <CustomNavLink eventKey="gamesHandMade">Вязанные игрушки</CustomNavLink>
+                                <CustomNavLink eventKey="gamesHandMade">Вязанные игрушки от 1000р</CustomNavLink>
                             </Nav.Item>
                             <Nav.Item>
                                 <CustomNavLink eventKey="metrics_toppers_names_medal">
-                                    Метрики топперы имена медальницы</CustomNavLink>
+                                    Метрики топперы имена медальницы от 500р</CustomNavLink>
                             </Nav.Item>
                             <Nav.Item>
-                                <CustomNavLink eventKey="photo">Фото рамки</CustomNavLink>
+                                <CustomNavLink eventKey="photo">Фото рамки от 1500р</CustomNavLink>
                             </Nav.Item>
                             <Nav.Item>
-                                <CustomNavLink eventKey="table">Подносы</CustomNavLink>
+                                <CustomNavLink eventKey="table">Подносы от 1500р</CustomNavLink>
                             </Nav.Item>
                             <Nav.Item>
-                                <CustomNavLink eventKey="decor">Декор</CustomNavLink>
+                                <CustomNavLink eventKey="decor">Декор от 2000р</CustomNavLink>
                             </Nav.Item>
                             <Nav.Item>
-                                <CustomNavLink eventKey="tbGames">Настольные игры</CustomNavLink>
+                                <CustomNavLink eventKey="tbGames">Настольные игры от 3000р</CustomNavLink>
                             </Nav.Item>
                         </Nav>
                     </Col>
